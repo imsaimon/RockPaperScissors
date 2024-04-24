@@ -46,3 +46,22 @@ if random_choice == 1:
     print(scissors)
 if random_choice == 2:
     print(rock)
+
+if choice == 0 and random_choice == 0:
+    print("Draw")
+if choice == 0 and random_choice == 1:
+    print("You lose")
+if choice == 0 and random_choice == 2:
+    print("You win")
+if choice == 1 and random_choice == 0:
+    print("You win")
+if choice == 1 and random_choice == 1:
+    print("Draw")
+if choice == 1 and random_choice == 2:
+    print("You lose")
+if choice == 2 and random_choice == 0:
+    print("You lose")
+if choice == 2 and random_choice == 1:
+    print("You win")
+if choice == 2 and random_choice == 2:
+    print("Draw")
