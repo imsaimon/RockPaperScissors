@@ -27,7 +27,7 @@ scissors = '''
 
 # Write your code below this line 👇
 print("Welcome to the Rock, Paper, Scissors Game!")
-choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+choice = int(input("What do you choose? Type 2 for Rock, 0 for Paper or 1 for Scissors.\n"))
 
 if choice == 0:
     print(paper)
